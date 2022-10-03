@@ -41,9 +41,9 @@ const navigationChildren = (navigatorObj: JSXNode): JSXNode[] | undefined => {
   }
 };
 
-const sendJSONData = async (jsonNodes: CalculatedNode) => {
+const sendJSONData = async (jsonNodes: CalculatedNode, port?: number) => {
   try {
-    const rawResponse = await fetch('http://10.0.2.2:3000/', {
+    const rawResponse = await fetch(`http://10.0.2.2:${port ?? 3000}/`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',

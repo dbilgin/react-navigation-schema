@@ -5,7 +5,7 @@ import fs from 'fs';
 import type { CalculatedNode, ServerOptions } from './types';
 import nomnoml from 'nomnoml';
 
-const getArgs = () => {
+export const getArgs = () => {
   const args: ServerOptions = {};
   process.argv.slice(2, process.argv.length).forEach((arg) => {
     if (arg.slice(0, 2) === '--') {
