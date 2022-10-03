@@ -15,10 +15,11 @@
     "uml",
     "graph"
   ],
-  "repository": "https://github.com/dbilgin/react-navigation-schema",
-  "author": {
-    "name": "dbilgin"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbilgin/react-navigation-schema.git"
   },
+  "author": "dbilgin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dbilgin/react-navigation-schema/issues"
@@ -51,5 +52,10 @@
   },
   "dependencies": {
     "nomnoml": "^1.5.2"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
   }
 }
