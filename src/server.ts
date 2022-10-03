@@ -37,6 +37,7 @@ const server = http.createServer((req, res) => {
     const jsonData = JSON.parse(chunks.toString());
 
     if (!jsonData || !jsonData.type || !jsonData.children?.length) {
+      console.log('Status: 400');
       res.statusCode = 400;
       res.end();
     }
@@ -45,6 +46,7 @@ const server = http.createServer((req, res) => {
     createSvgFile(jsonData);
   });
 
+  console.log('Status: 200');
   res.statusCode = 200;
   res.end();
 });
