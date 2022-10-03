@@ -5,9 +5,9 @@
   "scripts": {
     "build": "tsc -d",
     "test": "jest",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "start-schema-server": "node lib/server.js"
+    "lint": "eslint \"**/*.{js,ts,tsx}\""
   },
+  "bin": "./lib/server.js",
   "type": "module",
   "keywords": [
     "react-navigation",
@@ -48,7 +48,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@react-navigation/native": "*"
   },
   "dependencies": {
     "nomnoml": "^1.5.2"

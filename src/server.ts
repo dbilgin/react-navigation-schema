@@ -1,10 +1,36 @@
+#! /usr/bin/env node
+
 import http from 'http';
 import fs from 'fs';
-import type { CalculatedNode } from './types';
+import type { CalculatedNode, ServerOptions } from './types';
 import nomnoml from 'nomnoml';
 
+const getArgs = () => {
+  const args: ServerOptions = {};
+  process.argv.slice(2, process.argv.length).forEach((arg) => {
+    if (arg.slice(0, 2) === '--') {
+      const longArg = arg.split('=');
+      if (!longArg || !longArg[0]) {
+        return;
+      }
+
+      const longArgFlag = longArg[0].slice(2, longArg[0].length) as keyof ServerOptions;
+      const longArgValue = (longArg.length > 1 ? longArg[1] : true) as typeof longArgFlag;
+      args[longArgFlag] = longArgValue;
+    } else if (arg[0] === '-') {
+      const flags = arg.slice(1, arg.length).split('') as [keyof ServerOptions];
+      flags.forEach((flag) => {
+        args[flag] = true;
+      });
+    }
+  });
+  return args;
+};
+
+const args = getArgs();
+
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = args.port ?? 3000;
 
 const server = http.createServer((req, res) => {
   req.on('data', (chunks) => {
@@ -60,7 +86,9 @@ const getSvgNodeName = (element: CalculatedNode) => {
 };
 
 const createSvgString = (jsonData: CalculatedNode) => {
-  let src = '#fill: #8f8\n#spacing: 70\n#fontSize: 12\n';
+  let src = `#fill: ${args.color ?? '#8f8'}\n#spacing: ${args.spacing ?? 70}\n#fontSize: ${
+    args.fontSize ?? 12
+  }\n`;
 
   const addToSvg = (element: CalculatedNode) => {
     if (!element.children) {

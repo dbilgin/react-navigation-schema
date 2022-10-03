@@ -18,4 +18,12 @@ type CalculatedNode = {
   children?: CalculatedNode[];
 };
 
-export { JSXNode, CalculatedNode };
+type ServerOptions = {
+  port?: number;
+  color?: string;
+  spacing?: number;
+  fontSize?: number;
+  [key: string]: unknown;
+};
+
+export { JSXNode, CalculatedNode, ServerOptions };
