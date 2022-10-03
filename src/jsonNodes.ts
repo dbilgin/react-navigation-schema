@@ -1,8 +1,8 @@
 import type { CalculatedNode, JSXNode } from './types';
 
-const getJSONNodes = async (NavConComponent: () => JSX.Element): Promise<CalculatedNode> => {
+const getJSONNodes = async (NavConComponent: JSX.Element): Promise<CalculatedNode> => {
   let id = 0;
-  const navigationContainer = NavConComponent().props.children;
+  const navigationContainer = NavConComponent.props.children;
 
   const getChildrenNodes = (navigatorObj: JSXNode): CalculatedNode => {
     let c = navigatorObj.props.children ?? navigationChildren(navigatorObj);

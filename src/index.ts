@@ -1,6 +1,6 @@
 import { getJSONNodes, sendJSONData } from './jsonNodes';
 
-const createNavigationSchema = async (NavigationComponent: () => JSX.Element, port?: number) => {
+const createNavigationSchema = async (NavigationComponent: JSX.Element, port?: number) => {
   if (!__DEV__) {
     return;
   }
