@@ -1,6 +1,6 @@
 {
   "name": "react-navigation-schema",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A schema extension for react-navigation",
   "scripts": {
     "build": "tsc -d",
