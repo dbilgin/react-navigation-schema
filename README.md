@@ -61,7 +61,7 @@ export function Container() {
 }
 ```
 
-You can call the `createNavigationSchema` anywhere you like as long as you can pass the `NavigationContainer` inside it properly.
+You can call the `createNavigationSchema` anywhere you like as long as you can pass the `NavigationContainer` inside it properly. Since this is a dev environment thing, it will only work in the condition of `__DEV__ === true`;
 Now all you have to do is runn the application as regular on an emulator.
 
 ```bash
