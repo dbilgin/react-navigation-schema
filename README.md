@@ -62,6 +62,11 @@ export function Container() {
 ```
 
 You can call the `createNavigationSchema` anywhere you like as long as you can pass the `NavigationContainer` inside it properly.
+Now all you have to do is runn the application as regular on an emulator.
+
+```bash
+yarn android
+```
 
 ### Example
 
