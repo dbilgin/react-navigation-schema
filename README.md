@@ -146,9 +146,9 @@ One thing to remember here is if you want to set the port, you also have to pass
 createNavigationSchema(Container(), 12345);
 ```
 
-### Grouping & Ungrouping
+## Grouping & Ungrouping
 
-#### Ungrouping
+### Ungrouping
 
 Sometimes it is necessary to use the same stack twice under one navigation tree. You can decide how you want this to be displayed in the schema. The default behavior for this is `ungrouped`.
 
@@ -197,7 +197,7 @@ JSON file [here](https://github.com/dbilgin/react-navigation-schema/blob/master/
 
 As you can see, even though `5 - Data` and `10 - Utils` are the exact same, they get split into separate branches. This happens because of the auto-generated identifiers that you see in the beginning of every node. This is necessary because otherwise there can be unwanted match-ups due to names and the schema would be completely broken.
 
-#### Grouping
+### Grouping
 
 So how does grouping work? It's actually very simple, you just need to identify the grouped stacks and screens.
 
