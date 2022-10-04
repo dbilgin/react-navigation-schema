@@ -1,0 +1,100 @@
+{
+  "id": 1,
+  "type": "NativeStackNavigator",
+  "children": [
+    {
+      "id": 2,
+      "type": "Group",
+      "children": [
+        {"id": 3, "type": "Screen", "name": "Home"},
+        {"id": 4, "type": "Screen", "name": "Details"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Screen",
+      "name": "People",
+      "children": [
+        {
+          "id": 6,
+          "type": "NativeStackNavigator",
+          "children": [
+            {"id": 7, "type": "Screen", "name": "Information"},
+            {"id": 8, "type": "Screen", "name": "Salary"},
+            {
+              "id": 9,
+              "type": "Screen",
+              "name": "Data",
+              "children": [
+                {
+                  "id": "Grouped",
+                  "type": "BottomTabNavigator",
+                  "children": [
+                    {
+                      "id": "Grouped",
+                      "type": "Group",
+                      "children": [
+                        {
+                          "id": "Grouped",
+                          "type": "Screen",
+                          "name": "View Settings"
+                        },
+                        {
+                          "id": "Grouped",
+                          "type": "Screen",
+                          "name": "Edit Settings"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "Screen",
+      "name": "Utils",
+      "children": [
+        {
+          "id": "Grouped",
+          "type": "BottomTabNavigator",
+          "children": [
+            {
+              "id": "Grouped",
+              "type": "Group",
+              "children": [
+                {"id": "Grouped", "type": "Screen", "name": "View Settings"},
+                {"id": "Grouped", "type": "Screen", "name": "Edit Settings"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Screen",
+      "name": "Settings",
+      "children": [
+        {
+          "id": "Grouped",
+          "type": "BottomTabNavigator",
+          "children": [
+            {
+              "id": "Grouped",
+              "type": "Group",
+              "children": [
+                {"id": "Grouped", "type": "Screen", "name": "View Settings"},
+                {"id": "Grouped", "type": "Screen", "name": "Edit Settings"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

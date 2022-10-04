@@ -29,5 +29,6 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "alwaysStrict": true
-  }
+  },
+  "exclude": ["./assets", "./lib"]
 }

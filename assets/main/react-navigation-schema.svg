@@ -1,0 +1,236 @@
+<svg version="1.1" baseProfile="full" width="1208.0" height="693.0" viewbox="0 0 1208 693" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	<desc >#fill: #8f8
+	#spacing: 70
+	#fontSize: 12
+	[1 - NativeStackNavigator] -&gt; [2 - Group]
+	[2 - Group] -&gt; [3 - Home - Screen]
+	[2 - Group] -&gt; [4 - Details - Screen]
+	[1 - NativeStackNavigator] -&gt; [5 - People]
+	[5 - People] -&gt; [6 - NativeStackNavigator]
+	[6 - NativeStackNavigator] -&gt; [7 - Information - Screen]
+	[6 - NativeStackNavigator] -&gt; [8 - Salary - Screen]
+	[6 - NativeStackNavigator] -&gt; [9 - Data]
+	[9 - Data] -&gt; [Grouped - BottomTabNavigator]
+	[Grouped - BottomTabNavigator] -&gt; [Grouped - Group]
+	[Grouped - Group] -&gt; [Grouped - View Settings - Screen]
+	[Grouped - Group] -&gt; [Grouped - Edit Settings - Screen]
+	[1 - NativeStackNavigator] -&gt; [14 - Utils]
+	[14 - Utils] -&gt; [Grouped - BottomTabNavigator]
+	[Grouped - BottomTabNavigator] -&gt; [Grouped - Group]
+	[Grouped - Group] -&gt; [Grouped - View Settings - Screen]
+	[Grouped - Group] -&gt; [Grouped - Edit Settings - Screen]
+	[1 - NativeStackNavigator] -&gt; [19 - Settings]
+	[19 - Settings] -&gt; [Grouped - BottomTabNavigator]
+	[Grouped - BottomTabNavigator] -&gt; [Grouped - Group]
+	[Grouped - Group] -&gt; [Grouped - View Settings - Screen]
+	[Grouped - Group] -&gt; [Grouped - Edit Settings - Screen]
+	</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+		<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+			<g stroke="transparent" fill="transparent">
+				<rect x="0.0" y="0.0" height="693.0" width="1208.0" stroke="none"></rect>
+			</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+				<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+					<path d="M556.0 25.3 L113 66 L113 89.33333333333333 L113.0 89.3 " fill="none"></path>
+					<path d="M103.7 77.7 L113.0 89.3 L122.3 77.7 L113.0 101.0 Z"></path>
+					<path d="M102.9 132.0 L80 167 L80 190.33333333333334 L80.0 190.3 " fill="none"></path>
+					<path d="M70.7 178.7 L80.0 190.3 L89.3 178.7 L80.0 202.0 Z"></path>
+					<path d="M158.5 127.9 L314 167 L314 190.33333333333334 L314.0 190.3 " fill="none"></path>
+					<path d="M304.7 178.7 L314.0 190.3 L323.3 178.7 L314.0 202.0 Z"></path>
+					<path d="M635.0 31.0 L574 66 L574 89.33333333333333 L574.0 89.3 " fill="none"></path>
+					<path d="M564.7 77.7 L574.0 89.3 L583.3 77.7 L574.0 101.0 Z"></path>
+					<path d="M574.0 132.0 L574 167 L574 190.33333333333334 L574.0 190.3 " fill="none"></path>
+					<path d="M564.7 178.7 L574.0 190.3 L583.3 178.7 L574.0 202.0 Z"></path>
+					<path d="M470.4 233.0 L236.5 268 L236.5 291.3333333333333 L236.5 291.3 " fill="none"></path>
+					<path d="M227.2 279.7 L236.5 291.3 L245.8 279.7 L236.5 303.0 Z"></path>
+					<path d="M548.2 233.0 L490 268 L490 291.3333333333333 L490.0 291.3 " fill="none"></path>
+					<path d="M480.7 279.7 L490.0 291.3 L499.3 279.7 L490.0 303.0 Z"></path>
+					<path d="M607.0 233.0 L681.5 268 L681.5 291.3333333333333 L681.5 291.3 " fill="none"></path>
+					<path d="M672.2 279.7 L681.5 291.3 L690.8 279.7 L681.5 303.0 Z"></path>
+					<path d="M681.5 334.0 L681.5 369 L782.4674422212059 400.523065423004 L782.5 400.5 " fill="none"></path>
+					<path d="M768.5 406.0 L782.5 400.5 L774.1 388.1 L793.6 404.0 Z"></path>
+					<path d="M843.3 435.0 L843.25 470 L843.25 493.3333333333333 L843.3 493.3 " fill="none"></path>
+					<path d="M833.9 481.7 L843.3 493.3 L852.6 481.7 L843.3 505.0 Z"></path>
+					<path d="M790.2 536.0 L670.5 571 L670.5 594.3333333333334 L670.5 594.3 " fill="none"></path>
+					<path d="M661.2 582.7 L670.5 594.3 L679.8 582.7 L670.5 606.0 Z"></path>
+					<path d="M896.3 536.0 L1016 571 L1016 594.3333333333334 L1016.0 594.3 " fill="none"></path>
+					<path d="M1006.7 582.7 L1016.0 594.3 L1025.3 582.7 L1016.0 606.0 Z"></path>
+					<path d="M714.8 31.0 L834 66 L834 116.5 L834 116.5 L834 167 L834 167 L834 217.5 L834 217.5 L834 268 L834 268 L834 291.3333333333333 L834.0 291.3 " fill="none"></path>
+					<path d="M824.7 279.7 L834.0 291.3 L843.3 279.7 L834.0 303.0 Z"></path>
+					<path d="M834.0 334.0 L834 369 L838.3088980875066 392.52425442368445 L838.3 392.5 " fill="none"></path>
+					<path d="M827.0 382.7 L838.3 392.5 L845.4 379.4 L840.4 404.0 Z"></path>
+					<path d="M767.3 31.0 L1005 66 L1005 116.5 L1005 116.5 L1005 167 L1005 167 L1005 217.5 L1005 217.5 L1005 268 L1005 268 L1005 291.3333333333333 L1005.0 291.3 " fill="none"></path>
+					<path d="M995.7 279.7 L1005.0 291.3 L1014.3 279.7 L1005.0 303.0 Z"></path>
+					<path d="M1005.0 334.0 L1005 369 L904.0325577787941 400.523065423004 L904.0 400.5 " fill="none"></path>
+					<path d="M912.4 388.1 L904.0 400.5 L918.0 406.0 L892.9 404.0 Z"></path>
+					<g data-name="1 - NativeStackNavigator">
+						<g fill="#8f8" stroke="#33322E" data-name="1 - NativeStackNavigator">
+							<rect x="556.0" y="0.0" height="31.0" width="212.0" data-name="1 - NativeStackNavigator"></rect>
+						</g>
+						<g transform="translate(556, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="1 - NativeStackNavigator">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="1 - NativeStackNavigator">
+								<text x="98.0" y="13.5" stroke="none" text-anchor="middle" data-name="1 - NativeStackNavigator">1 - NativeStackNavigator</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="2 - Group">
+						<g fill="#8f8" stroke="#33322E" data-name="2 - Group">
+							<rect x="68.0" y="101.0" height="31.0" width="91.0" data-name="2 - Group"></rect>
+						</g>
+						<g transform="translate(68, 101)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="2 - Group">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="2 - Group">
+								<text x="37.5" y="13.5" stroke="none" text-anchor="middle" data-name="2 - Group">2 - Group</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="3 - Home - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="3 - Home - Screen">
+							<rect x="0.0" y="202.0" height="31.0" width="160.0" data-name="3 - Home - Screen"></rect>
+						</g>
+						<g transform="translate(0, 202)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="3 - Home - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="3 - Home - Screen">
+								<text x="72.0" y="13.5" stroke="none" text-anchor="middle" data-name="3 - Home - Screen">3 - Home - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="4 - Details - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="4 - Details - Screen">
+							<rect x="230.0" y="202.0" height="31.0" width="168.0" data-name="4 - Details - Screen"></rect>
+						</g>
+						<g transform="translate(230, 202)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="4 - Details - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="4 - Details - Screen">
+								<text x="76.0" y="13.5" stroke="none" text-anchor="middle" data-name="4 - Details - Screen">4 - Details - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="5 - People">
+						<g fill="#8f8" stroke="#33322E" data-name="5 - People">
+							<rect x="526.0" y="101.0" height="31.0" width="97.0" data-name="5 - People"></rect>
+						</g>
+						<g transform="translate(526, 101)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="5 - People">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="5 - People">
+								<text x="40.5" y="13.5" stroke="none" text-anchor="middle" data-name="5 - People">5 - People</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="6 - NativeStackNavigator">
+						<g fill="#8f8" stroke="#33322E" data-name="6 - NativeStackNavigator">
+							<rect x="468.0" y="202.0" height="31.0" width="212.0" data-name="6 - NativeStackNavigator"></rect>
+						</g>
+						<g transform="translate(468, 202)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="6 - NativeStackNavigator">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="6 - NativeStackNavigator">
+								<text x="98.0" y="13.5" stroke="none" text-anchor="middle" data-name="6 - NativeStackNavigator">6 - NativeStackNavigator</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="7 - Information - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="7 - Information - Screen">
+							<rect x="135.0" y="303.0" height="31.0" width="203.0" data-name="7 - Information - Screen"></rect>
+						</g>
+						<g transform="translate(135, 303)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="7 - Information - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="7 - Information - Screen">
+								<text x="93.5" y="13.5" stroke="none" text-anchor="middle" data-name="7 - Information - Screen">7 - Information - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="8 - Salary - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="8 - Salary - Screen">
+							<rect x="408.0" y="303.0" height="31.0" width="164.0" data-name="8 - Salary - Screen"></rect>
+						</g>
+						<g transform="translate(408, 303)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="8 - Salary - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="8 - Salary - Screen">
+								<text x="74.0" y="13.5" stroke="none" text-anchor="middle" data-name="8 - Salary - Screen">8 - Salary - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="9 - Data">
+						<g fill="#8f8" stroke="#33322E" data-name="9 - Data">
+							<rect x="642.0" y="303.0" height="31.0" width="79.0" data-name="9 - Data"></rect>
+						</g>
+						<g transform="translate(642, 303)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="9 - Data">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="9 - Data">
+								<text x="31.5" y="13.5" stroke="none" text-anchor="middle" data-name="9 - Data">9 - Data</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Grouped - BottomTabNavigator">
+						<g fill="#8f8" stroke="#33322E" data-name="Grouped - BottomTabNavigator">
+							<rect x="712.0" y="404.0" height="31.0" width="262.0" data-name="Grouped - BottomTabNavigator"></rect>
+						</g>
+						<g transform="translate(712, 404)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Grouped - BottomTabNavigator">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Grouped - BottomTabNavigator">
+								<text x="123.0" y="13.5" stroke="none" text-anchor="middle" data-name="Grouped - BottomTabNavigator">Grouped - BottomTabNavigator</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Grouped - Group">
+						<g fill="#8f8" stroke="#33322E" data-name="Grouped - Group">
+							<rect x="768.0" y="505.0" height="31.0" width="150.0" data-name="Grouped - Group"></rect>
+						</g>
+						<g transform="translate(768, 505)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Grouped - Group">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Grouped - Group">
+								<text x="67.0" y="13.5" stroke="none" text-anchor="middle" data-name="Grouped - Group">Grouped - Group</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Grouped - View Settings - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="Grouped - View Settings - Screen">
+							<rect x="531.0" y="606.0" height="31.0" width="279.0" data-name="Grouped - View Settings - Screen"></rect>
+						</g>
+						<g transform="translate(531, 606)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Grouped - View Settings - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Grouped - View Settings - Screen">
+								<text x="131.5" y="13.5" stroke="none" text-anchor="middle" data-name="Grouped - View Settings - Screen">Grouped - View Settings - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Grouped - Edit Settings - Screen">
+						<g fill="#8f8" stroke="#33322E" data-name="Grouped - Edit Settings - Screen">
+							<rect x="880.0" y="606.0" height="31.0" width="272.0" data-name="Grouped - Edit Settings - Screen"></rect>
+						</g>
+						<g transform="translate(880, 606)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Grouped - Edit Settings - Screen">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Grouped - Edit Settings - Screen">
+								<text x="128.0" y="13.5" stroke="none" text-anchor="middle" data-name="Grouped - Edit Settings - Screen">Grouped - Edit Settings - Screen</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="14 - Utils">
+						<g fill="#8f8" stroke="#33322E" data-name="14 - Utils">
+							<rect x="791.0" y="303.0" height="31.0" width="86.0" data-name="14 - Utils"></rect>
+						</g>
+						<g transform="translate(791, 303)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="14 - Utils">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="14 - Utils">
+								<text x="35.0" y="13.5" stroke="none" text-anchor="middle" data-name="14 - Utils">14 - Utils</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="19 - Settings">
+						<g fill="#8f8" stroke="#33322E" data-name="19 - Settings">
+							<rect x="947.0" y="303.0" height="31.0" width="116.0" data-name="19 - Settings"></rect>
+						</g>
+						<g transform="translate(947, 303)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="19 - Settings">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="19 - Settings">
+								<text x="50.0" y="13.5" stroke="none" text-anchor="middle" data-name="19 - Settings">19 - Settings</text>
+								
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
